@@ -31,8 +31,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/joel/oauth2-example.git"
+    "url": "git@github.com:canito0890/sails-oauth2-example.git"
   },
-  "author": "joel",
-  "license": ""
+  "author": "Canito0890",
+  "license": "MIT"
 }
