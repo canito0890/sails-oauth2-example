@@ -8,3 +8,8 @@ This example is from what I've learned mostly from:
 
  - [https://github.com/lucj/sails-oauth2-api](https://github.com/lucj/sails-oauth2-api)
  - [http://scottksmith.com/blog/2014/07/02/beer-locker-building-a-restful-api-with-node-oauth2-server/](http://scottksmith.com/blog/2014/07/02/beer-locker-building-a-restful-api-with-node-oauth2-server/)
+
+## Dependencies
+
+- [passport]()
+- [oauth2orize]()
