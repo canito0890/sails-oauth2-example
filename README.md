@@ -11,5 +11,28 @@ This example is from what I've learned mostly from:
 
 ## Dependencies
 
-- [passport]()
-- [oauth2orize]()
+### Bcrypt
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
+
+### Passport
+- [passport](http://passportjs.org/)
+- [passport-http](https://github.com/jaredhanson/passport-http)
+- [passport-http-bearer](https://github.com/jaredhanson/passport-http-bearer)
+- [passport-oauth2-client-password](https://github.com/jaredhanson/passport-oauth2-client-password)
+
+### OAuth2orize
+- [oauth2orize](https://github.com/jaredhanson/oauth2orize/)
+
+### Others
+- [moment](https://github.com/moment/moment/)
+
+## Missing
+
+- Implement the [passport-oauth2-client-password](https://github.com/jaredhanson/passport-oauth2-client-password), the flow is completed with the passport basic strategy.
+
+## Models
+
+- Client
+- AuthCode
+- AccessToken
+- User
