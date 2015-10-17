@@ -8,7 +8,26 @@
 module.exports = {
 
   attributes: {
-
+    name: {
+      type: 'string',
+      required: true
+    },
+    owner: {
+      model: 'user',
+      required: true
+    },
+    clientId: {
+      type: 'string',
+      unique: true
+    },
+    secret: {
+      type: 'string',
+      unique: true
+    }
+  },
+  beforeCreate: function(values, next){
+    values.clientId = UtilsService.uidLight(32);
+    values.secret = UtilsService.uid(64); // TODO apply encryption
+    next();
   }
 };
-
