@@ -11,6 +11,8 @@ This example is from what I've learned mostly from:
 
 ## Dependencies
 
+- Sails v0.11
+
 ### Bcrypt
 - [bcrypt](https://www.npmjs.com/package/bcrypt)
 
@@ -36,3 +38,4 @@ This example is from what I've learned mostly from:
 - AuthCode
 - AccessToken
 - User
+- Product -> For api simulation
