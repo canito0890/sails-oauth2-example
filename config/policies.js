@@ -48,4 +48,12 @@ module.exports.policies = {
 		// before letting any users feed our rabbits
 		// feed : ['isNiceToAnimals', 'hasRabbitFood']
 	// }
+  '*': ['apiAuth'],
+  auth: {
+    '*': []
+  },
+  OAuth2Controller: {
+    authorization: ['basicAuth','oauth2Auth'],
+    'token': ['clientAuth', 'grantToken', 'errorHandler']
+  }
 };

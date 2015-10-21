@@ -32,9 +32,9 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
+  /**'/': {
     view: 'homepage'
-  }
+  }*/
 
   /***************************************************************************
   *                                                                          *
@@ -45,5 +45,12 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
+  // General Routes
+  'post /register': 'AuthController.register',
+  'get /confirmation': 'AuthController.confirmation',
+  //OAuth2 Routes
+  'post /oauth2/token': 'OAuth2Controller.token',
+  'get /oauth2/authorize': 'OAuth2Controller.authorization',
+  'post /oauth2/authorize': 'OAuth2Controller.decision'
 
 };
