@@ -2,12 +2,6 @@
 
 The purpose of this example is to have an API protected by oauth2. But also doing it the most "sails-y" way. Or at least what I think is the sails way of doing it, contributions are appreciated.
 
-## TODO
-
-- Encrypt AccessToken.token and AuthCode.code.
-- Test Endpoints
-- Remove Dialog View and Expect only API calls.
-
 ## Credits
 
 This example is from what I've learned mostly from:
@@ -37,6 +31,12 @@ This example is from what I've learned mostly from:
 ## Missing
 
 - Implement the [passport-oauth2-client-password](https://github.com/jaredhanson/passport-oauth2-client-password), the flow is completed with the passport basic strategy.
+
+### TODO
+
+- Encrypt AccessToken.token and AuthCode.code.
+- Test Endpoints
+- Remove Dialog View and Expect only API calls.
 
 ## Models
 
