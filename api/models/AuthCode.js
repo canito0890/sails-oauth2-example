@@ -8,7 +8,24 @@
 module.exports = {
 
   attributes: {
-
+    code: {
+      type: 'string'
+    },
+    owner: {
+      model: 'user',
+      required: true
+    },
+    clientId: {
+      type: 'string',
+      required: true
+    },
+    url: {
+      type: 'string',
+      required: true
+    }
+  },
+  beforeCreate: function(values, next){
+    values.code = UtilsService.uid(32);
+    next();
   }
 };
-
